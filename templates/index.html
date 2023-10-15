@@ -67,7 +67,22 @@
     <script src="{{url_for('static', filename='int64.js')}}"></script>
     <script src="{{url_for('static', filename='syscalls.js')}}"></script>
 
-    {% if version == "9.00" %}
+    {% if version == "11.00" %}
+    <script src="{{url_for('static', filename='11.0.0/rop.js')}}"></script>
+    <script src="{{url_for('static', filename='11.0.0/kexploit.js')}}"></script>
+    <script src="{{url_for('static', filename='11.0.0/webkit.js')}}"></script>
+    {%  endif %}
+       {% if version == "10.70" %}
+    <script src="{{url_for('static', filename='10.70.0/rop.js')}}"></script>
+    <script src="{{url_for('static', filename='10.70.0/kexploit.js')}}"></script>
+    <script src="{{url_for('static', filename='10.70.0/webkit.js')}}"></script>
+    {%  endif %}
+       {% if version == "10.00" %}
+    <script src="{{url_for('static', filename='10.0.0/rop.js')}}"></script>
+    <script src="{{url_for('static', filename='10.0.0/kexploit.js')}}"></script>
+    <script src="{{url_for('static', filename='10.0.0/webkit.js')}}"></script>
+    {%  endif %}
+       {% if version == "9.00" %}
     <script src="{{url_for('static', filename='9.0.0/rop.js')}}"></script>
     <script src="{{url_for('static', filename='9.0.0/kexploit.js')}}"></script>
     <script src="{{url_for('static', filename='9.0.0/webkit.js')}}"></script>

@@ -149,6 +149,6 @@ Modyfikacje konsol mogą prowadzić do utraty gwarancji lub zablokowania sprzęt
 ---
 
 ## 📄 Licencja
-
+''
 Projekt udostępniony wyłącznie w celach edukacyjnych.
 ```
